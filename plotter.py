@@ -148,6 +148,7 @@ class Drawing:
         if not filepath:
             filepath = "previews/plot-preview-" + uuid.uuid4().hex + ".svg"
         self.svg.saveas(filepath)
+        return filepath
 
     def preview_geom(self, geom, **kwargs):
         if hasattr(geom, 'xy'):
