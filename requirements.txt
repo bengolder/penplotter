@@ -1,0 +1,5 @@
+shapely
+chiplotle
+ipdb
+ipython
+svgwrite

@@ -34,6 +34,7 @@ wheels/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+pip-selfcheck.json
 
 # Unit test / coverage reports
 htmlcov/
@@ -86,6 +87,10 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+bin
+include
+lib
+share
 
 # Spyder project settings
 .spyderproject
@@ -99,3 +104,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# shapely
+shapely
